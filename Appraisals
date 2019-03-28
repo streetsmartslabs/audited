@@ -15,3 +15,8 @@ appraise 'rails52' do
   gem 'rails', '>= 5.2.0', '< 5.3'
   gem 'mysql2', '~> 0.4.4'
 end
+
+appraise 'rails600beta3' do
+  gem 'rails', '~> 6.0.0.beta3'
+  gem 'mysql2', '~> 0.4.4'
+end
